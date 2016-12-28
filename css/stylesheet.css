@@ -1,0 +1,41 @@
+
+/*css of index page of admin*/
+*
+{
+	margin:0px;
+	padding:0px;
+
+}
+body
+{
+	background: #b9b9b9;
+}
+.wrapper
+{
+	height:400px;
+	width:400px;
+	border:1px solid black;
+	margin:100px 0 0 450px;
+	text-align: center;
+	background:#e5e5e5 ;
+}
+input
+{
+	height:30px;
+}
+.login
+{
+	background: black;
+	color:white;
+	padding:5px;
+	position: relative;
+	right:60px;
+
+}
+label
+{
+	position: relative;
+	right:55px;
+
+}
+

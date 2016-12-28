@@ -1,0 +1,50 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+.wrapper
+{
+	height:100%;
+	width:1200px;
+	margin:auto;
+	font-family: 'Nunito Sans', sans-serif;
+	
+
+}
+.wrapper .album
+{
+	
+	
+	
+	margin:0 auto;
+	margin-top:40px;
+	height:auto;
+	width:1050px;
+	 
+	border:1px ridge #b9b9b9;
+	
+}
+
+.wrapper .album  .photo
+{
+	float:left;
+	margin:
+	height:300px; 
+	width:200px;
+
+}
+
+
+.wrapper .album  .photo .desc
+{
+	height:100px;
+	width:200px;
+	background: aqua;
+	
+}
+h1
+{	
+	text-align: center;
+	font-family: 'Nunito Sans', sans-serif;
+}

@@ -1,0 +1,164 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+body
+{
+	font-family: 'Shadows Into Light', cursive;
+
+}
+.wrapper
+{
+	height:auto;
+	width:1200px;
+	margin:auto;
+
+
+}
+
+.wrapper .sidebar ul
+{
+	height:500px;
+	width:200px;
+	background: #e5e5e5;
+	text-align:center;
+	font-size: 25px;
+	margin-top:20px;
+	float:left;
+	opacity:0.9;
+}
+.wrapper .sidebar ul li 
+{
+	list-style: none;
+	height:50px;
+	width:200px;
+	padding-top:20px;
+	background: #b9b9b9;
+	border:1px solid black;
+
+
+}
+
+.wrapper .sidebar ul li:first-child
+
+{
+	border-bottom: none;
+}
+.wrapper .sidebar ul li:last-child
+
+{
+	border-top: none;
+}
+.wrapper .sidebar ul li a
+{
+	text-decoration: none;
+}
+
+.wrapper .sidebar ul li:hover
+{
+	background: #e5e5e5;
+	
+
+	
+}
+.wrapper .content 
+{
+	height:500px;
+	width:900px;
+	background: #e5e5e5;
+	float:left;
+	margin: 20px 0 0 30px;
+
+}
+.wrapper .content .form
+{
+	position: relative;
+	left:50px;
+	top:20px;
+}
+
+/*stylesheet of view*/
+.content .photo .desc
+{
+	height:50px;
+	width:150px;
+	overflow: scroll;
+	
+}
+.content .photo
+{
+	position:relative;
+	left:10px;
+	top:10px;
+	float:left;
+	padding-left:10px;
+
+}
+.update,.delete
+{
+ height:20px;
+ width:73px;
+ background:#b9b9b9; 
+ text-align:center;
+}
+ .list
+{
+	list-style: none;
+	
+}
+ .list li
+{
+	display: inline-block;
+}
+.list a
+{
+	text-decoration:none;
+	color:black;
+}
+.list div:hover
+{
+	background: black;
+	color:white;
+}
+
+
+
+
+/*style of pschange.php*/
+.wrapper .content .newform
+{
+	
+	text-align: center;
+	margin-top: 50px;
+	margin-right: 10px;
+}
+input
+{
+	height:30px;
+	width:200px;
+}
+label
+{
+	font-size:20px;
+	color:red;
+}
+.login
+{
+	padding:10px;
+}
+
+
+/*stylesheet of update.php */
+.wrapper_up
+{
+	height: 500px;
+	width: 500px;
+	margin: auto;
+	background: #e5e5e5;
+}
+.wrapper_up .form_up
+{
+	margin-top: 30px;
+	margin-left: 40px;
+}
